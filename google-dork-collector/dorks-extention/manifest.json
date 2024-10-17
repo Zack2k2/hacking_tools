@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Dork-colector",
+    "version": "1.0",
+    "description": "Colect and send all links in google search",
+    "icons": {
+      "48": "icons/dork-icon-48.png"
+    },
+  
+    "permissions": [
+        "activeTab",
+        "storage",
+        "http://127.0.0.1/*",
+        "http://localhost/*"
+    ],
+    "options_ui":{
+        "page":"options.html"
+    },
+    
+    "content_scripts": [
+      {
+        "matches": ["*://*.google.com/*"],
+        "js": ["collectlinks.js"]
+      }
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/dork-icon-48.png",
+      "default_title": "collect"
+    }
+}
+  

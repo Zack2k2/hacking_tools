@@ -1,0 +1,9 @@
+*.apps.sofa.csg.aboitizpower.org
+*.enerzone.com.ph
+*.aboitizpower.com
+*.snaboitiz.com
+*.hedcor.com
+*.visayanelectric.com
+*.davaolight.com
+*.oilbu.com
+*.cotabatolight.com
